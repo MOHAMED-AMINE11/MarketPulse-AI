@@ -1,0 +1,32 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Data
+data_lake/bronze/*
+data_lake/silver/*
+data_lake/gold/*
+!data_lake/**/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Docker
+docker-compose.override.yml
+
+# ML
+ml/models/*.pkl
+ml/models/*.h5
